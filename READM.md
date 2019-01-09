@@ -3,13 +3,11 @@
 ## build and start container
 Build the image like this:
 
-
 ```bash
 docker build . --tag php_apache_hello_word_image
 ```
 
 Start a container like this:
-
 
 ```bash
 docker container run --name php_apache_hello_world_container --detach -p 80:80 php_apache_hello_world_image
