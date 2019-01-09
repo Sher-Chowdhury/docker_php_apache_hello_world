@@ -5,7 +5,7 @@
 Build the image like this:
 
 ```bash
-docker build . --tag php_apache_hello_word_image
+docker build . --tag php_apache_hello_world_image
 ```
 
 Start a container like this:
@@ -29,5 +29,5 @@ Factory reset and start again:
 ```bash
 docker container stop php_apache_hello_world_container
 docker container rm php_apache_hello_world_container
-docker image rm php_apache_hello_word_image
+docker image rm php_apache_hello_world_image
 ```
