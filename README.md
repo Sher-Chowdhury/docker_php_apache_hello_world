@@ -27,9 +27,7 @@ Try accessing the following links:
 Factory reset and start again:
 
 ```bash
-docker container stop $(docker container ls --all --quiet)
-docker container rm $(docker container ls --all --quiet)
-docker image rm $(docker image ls --quiet)
-docker volume rm $(docker volume ls --quiet)
-docker system prune --all --volumes --force
+docker container stop php_apache_hello_world_container
+docker container rm php_apache_hello_world_container
+docker image rm php_apache_hello_word_image
 ```
